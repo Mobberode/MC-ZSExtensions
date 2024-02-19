@@ -1,0 +1,10 @@
+clear @s[tag=zsextension_exomoves.boost] structure_void{CustomModelData:1}
+clear @s[tag=zsextension_exomoves.power_boost] structure_void{CustomModelData:2}
+give @s[tag=zsextension_exomoves.boost] barrier{display:{Name:'[{"text": "EXO-Dash on Cooldown!","italic": false,"color": "red"}]'},RepairCost:0}
+give @s[tag=zsextension_exomoves.power_boost] barrier{display:{Name:'[{"text": "Powered EXO-Dash on Cooldown!","italic": false,"color": "red"}]'},RepairCost:1}
+scoreboard players set @s[tag=!zsextension_exomoves.power_boost] zsextension_exomoves.cooldown 5
+scoreboard players set @s[tag=zsextension_exomoves.power_boost] zsextension_exomoves.power_cooldown 15
+tag @s[tag=zsextension_exomoves.boost] add zsextension_exomoves.cooldowned
+tag @s[tag=zsextension_exomoves.power_boost] add zsextension_exomoves.power_cooldowned
+execute if entity @s[tag=zsextension_exomoves.power_boost] run function exomoves:contents/global/cooldown_power
+execute if entity @s[tag=zsextension_exomoves.boost] run function exomoves:contents/global/cooldown

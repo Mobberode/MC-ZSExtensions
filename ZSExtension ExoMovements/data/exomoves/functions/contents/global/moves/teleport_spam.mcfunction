@@ -1,3 +1,0 @@
-scoreboard players remove @a[tag=zsextension_exomoves.dashing] zsextension_exomoves.tptimes 1
-execute as @a[tag=zsextension_exomoves.dashing] at @s run function exomoves:contents/global/moves/teleport
-execute as @a[tag=zsextension_exomoves.dashing] unless score @s zsextension_exomoves.tptimes matches 0 if data entity @e[tag=zsextension_exomoves_move_doll,limit=1,sort=nearest] Motion run schedule function exomoves:contents/global/moves/teleport_spam 1t

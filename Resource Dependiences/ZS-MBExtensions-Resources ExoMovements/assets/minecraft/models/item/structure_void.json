@@ -1,0 +1,12 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/structure_void"
+    },
+
+    "overrides":[
+        {"predicate":{"custom_model_data":1}, "model": "item/structure_void/1"},
+        {"predicate":{"custom_model_data":2}, "model": "item/structure_void/2"}
+
+    ]
+}
