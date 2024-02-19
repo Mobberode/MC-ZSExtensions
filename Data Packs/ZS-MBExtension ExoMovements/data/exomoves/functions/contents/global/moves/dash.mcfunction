@@ -12,4 +12,4 @@ execute at @s as @e[tag=zsextension_exomoves_move_doll,limit=1,sort=nearest] sto
 data modify entity @e[tag=zsextension_exomoves_move_doll,limit=1,sort=nearest] Motion set from storage zsextenstion_exomoves:exomoves Motion
 tag @s remove zsextension_exomoves.boost
 tag @s remove zsextension_exomoves.power_boost
-function exomoves:contents/global/moves/teleport_spam
+execute as @s run function exomoves:contents/global/moves/teleport_spam
