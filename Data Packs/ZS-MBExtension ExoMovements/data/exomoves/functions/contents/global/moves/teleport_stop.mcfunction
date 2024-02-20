@@ -1,3 +1,3 @@
-effect give @p resistance 1 255
-tag @p remove zsextension_exomoves.dashing
+effect give @a[distance=0..3] resistance 1 255
+tag @a[distance=0..3] remove zsextension_exomoves.dashing
 kill @s
