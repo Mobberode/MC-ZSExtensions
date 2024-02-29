@@ -1,6 +1,18 @@
 {
     "pack": {
-      "pack_format": 26,
+      "pack_format": 33,
+      "supported_formats": [22,33,26],
       "description": "ZSExtension - Exo Movements for ZSC and Necro Brawl"
-    }
+    },
+    "overlays": {
+      "entries": [
+          {
+              "formats": {
+                "min_inclusive": 22,
+                "max_inclusive": 26
+              },
+              "directory": "1202_4"
+          }
+      ]
+  }
 }
