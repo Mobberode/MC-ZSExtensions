@@ -1,5 +1,5 @@
 tag @s remove zsextension_exomoves.boost
-clear @s barrier[minecraft:repair_cost=0]
+clear @s barrier{RepairCost:0}
 tag @s remove zsextension_exomoves.cooldowned
-give @s structure_void[minecraft:custom_name='{"text":"EXO-Dash","italic":false}',minecraft:custom_model_data=1]
+give @s structure_void{display:{"Name":'{"text":"EXO-Dash","italic":false}'},CustomModelData:1}
 tellraw @s ["",{"text": "Exo Dash Ability Usable!","color": "aqua"}]
