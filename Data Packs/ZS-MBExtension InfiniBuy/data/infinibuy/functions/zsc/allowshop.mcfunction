@@ -1,1 +1,0 @@
-effect give @a hero_of_the_village infinite 0 false
