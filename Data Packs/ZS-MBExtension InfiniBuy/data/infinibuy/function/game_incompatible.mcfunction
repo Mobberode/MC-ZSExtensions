@@ -1,1 +1,1 @@
-tellraw @a ["",{"text": "InfiniBuy: Extension is incompatible with the current minigame! "}]
+tellraw @a [{text:"InfiniBuy: Extension is incompatible with the current minigame! "}]

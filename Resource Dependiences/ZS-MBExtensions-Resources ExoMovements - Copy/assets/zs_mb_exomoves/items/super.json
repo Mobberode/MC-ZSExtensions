@@ -1,0 +1,21 @@
+{
+  "model": {
+    "type": "minecraft:composite",
+    "models": [
+      {
+        "type": "minecraft:condition",
+        "property": "minecraft:has_component",
+        "component": "minecraft:repair_cost",
+        "ignore_default": true,
+        "on_true": {
+          "type": "minecraft:model",
+          "model": "zs_mb_exomoves:item/super_d"
+        },
+        "on_false": {
+          "type": "minecraft:model",
+          "model": "zs_mb_exomoves:item/super_c"
+        }
+      }
+    ]
+  }
+}

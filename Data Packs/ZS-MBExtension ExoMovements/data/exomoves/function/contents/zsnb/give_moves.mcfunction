@@ -1,2 +1,2 @@
-give @s structure_void[minecraft:custom_name='{"text":"EXO-Dash","italic":false}',minecraft:custom_model_data=1]
-give @s structure_void[minecraft:custom_name='{"text":"Powered EXO-Dash","italic":false}',minecraft:custom_model_data=2]
+give @s structure_void[minecraft:custom_name={text:"EXO-Dash",italic:false},item_model="zs_mb_exomoves:normal",custom_data={exomoves_item:normal}]
+give @s structure_void[minecraft:custom_name={text:"Powered EXO-Dash",italic:false},item_model="zs_mb_exomoves:super",custom_data={exomoves_item:charged}]
