@@ -1,1 +1,0 @@
-execute as @s at @e[tag=zsextension_exomoves_move_doll,sort=nearest,distance=0..3] unless entity @s[nbt={OnGround:true}] run tp @s ~ ~ ~

@@ -1,3 +1,0 @@
-give @s[tag=!zsextension_exomoves_received] structure_void[minecraft:custom_name={text:EXO-Dash,italic:false},item_model="zs_mb_exomoves:normal",custom_data={exomoves_item:normal}]
-give @s[tag=!zsextension_exomoves_received] structure_void[minecraft:custom_name={text:"Powered EXO-Dash",italic:false},item_model="zs_mb_exomoves:super",custom_data={exomoves_item:charged}]
-tag @s add zsextension_exomoves_received

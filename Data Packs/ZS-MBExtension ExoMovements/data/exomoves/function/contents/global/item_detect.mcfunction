@@ -1,0 +1,2 @@
+execute if items entity @s weapon.mainhand structure_void[custom_data={exomoves_item:normal}] run function exomoves:contents/global/moves/dash
+execute if items entity @s weapon.mainhand structure_void[custom_data={exomoves_item:charged}] run function exomoves:contents/global/moves/dash_power

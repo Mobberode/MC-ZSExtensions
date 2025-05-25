@@ -1,5 +1,6 @@
 {
 	"values": [
-		"exomoves:load"
+		"exomoves:load",
+		"player_motion:internal/technical/load"
 	]
 }
